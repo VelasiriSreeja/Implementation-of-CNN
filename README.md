@@ -29,7 +29,7 @@ Train the model
 ### Name:v.sreeja
 ### Register Number:212222230169
 
-
+```
 import os
 import base64
 import numpy as np
@@ -130,7 +130,7 @@ def convolutional_model():
     return model
 model = convolutional_model()
 training_history = model.fit(training_images, training_labels, epochs=10, callbacks=[EarlyStoppingCallback()])
-
+```
 ## OUTPUT
 
 ### Reshape and Normalize output
